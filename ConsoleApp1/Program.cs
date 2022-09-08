@@ -20,10 +20,6 @@ namespace ConsoleApp1
                     new TextData(){Name="lname",Context="qwq"}
                 }
             };
-            int[] ints = new int[10]
-            {
-                1,2,3,4,5,6,7,8,9,10,
-            };
             request.Send();
             // Console.WriteLine(Encoding.UTF8.GetString(request.GetResponseBytes()));
             Console.WriteLine(request.GetResponseString());
