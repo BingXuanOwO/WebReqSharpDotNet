@@ -1,0 +1,6 @@
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\WebReqSharpDotNet\bin\Debug\WebReqSharpDotNet.dll
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\WebReqSharpDotNet\bin\Debug\WebReqSharpDotNet.pdb
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\WebReqSharpDotNet\obj\Debug\WebReqSharpDotNet.csproj.AssemblyReference.cache
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\WebReqSharpDotNet\obj\Debug\WebReqSharpDotNet.csproj.CoreCompileInputs.cache
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\WebReqSharpDotNet\obj\Debug\WebReqSharpDotNet.dll
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\WebReqSharpDotNet\obj\Debug\WebReqSharpDotNet.pdb

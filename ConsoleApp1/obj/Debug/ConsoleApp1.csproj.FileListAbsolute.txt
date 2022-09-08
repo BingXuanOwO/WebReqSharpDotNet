@@ -1,0 +1,9 @@
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\ConsoleApp1\bin\Debug\WebReqSharpDotNet.dll
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\ConsoleApp1\bin\Debug\WebReqSharpDotNet.pdb
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\bingxuan\source\repos\WebReqSharpDotNet\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
