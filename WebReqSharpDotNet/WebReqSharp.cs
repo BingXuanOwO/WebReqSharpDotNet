@@ -85,7 +85,7 @@ namespace WebReqSharpDotNet
         /// <summary>
         /// 发送请求后的返回流，只可调用一次，之后无法调整指针位置
         /// </summary>
-        public Stream ResponseStream { internal set; get; }
+        public HttpWebResponse Response { internal set; get; }
 
         /// <summary>
         /// 发送当前http请求
@@ -161,16 +161,13 @@ namespace WebReqSharpDotNet
 
 
             //获取返回
-            var response = (HttpWebResponse)httpWebRequest.GetResponse();
+            Response = (HttpWebResponse)httpWebRequest.GetResponse();
 
             //获取返回的cookie
-            foreach (Cookie item in response.Cookies)
+            foreach (Cookie item in Response.Cookies)
             {
                 this.Cookies.Add(item);
             }
-
-            //获取返回Stream
-            ResponseStream = response.GetResponseStream();
         }
 
         /// <summary>
@@ -180,7 +177,7 @@ namespace WebReqSharpDotNet
         public byte[] GetResponseBytes()
         {
             MemoryStream memoryStream = new MemoryStream();
-            ResponseStream.CopyTo(memoryStream);
+            Response.GetResponseStream().CopyTo(memoryStream);
             byte[] buffer = new byte[memoryStream.Length];
             memoryStream.Position = 0;
             memoryStream.Read(buffer, 0, buffer.Length);
@@ -193,7 +190,7 @@ namespace WebReqSharpDotNet
         /// <returns>请求发送完后，返回的string</returns>
         public string GetResponseString()
         {
-            StreamReader streamReader = new StreamReader(ResponseStream);
+            StreamReader streamReader = new StreamReader(Response.GetResponseStream());
             return streamReader.ReadToEnd();
         }
 
